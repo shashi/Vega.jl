@@ -86,6 +86,7 @@ module Vega
     include("derived/dotplot.jl")
     include("derived/horizon.jl")
     include("derived/punchcard.jl")
+    include("derived/ganttchart.jl")
 
     if Pkg.installed("Escher") != nothing
         include("escher_integration.jl")
